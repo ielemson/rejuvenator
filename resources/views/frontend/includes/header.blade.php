@@ -9,7 +9,7 @@
                                 <i class="fas fa-map"></i>
                             </div>
                             <div class="text">
-                                <p>88 broklyn golden street. New York</p>
+                                <p>Real Tower Center, No. 26 A E Ekukinam Street, Utako Abuja, Suit b11 (4)</p>
                             </div>
                         </li>
                         <li>
@@ -17,7 +17,7 @@
                                 <i class="fas fa-envelope-open"></i>
                             </div>
                             <div class="text">
-                                <p><a href="">needhelp@company.com</a></p>
+                                <p><a href="">rejuvenator08@gmail.com</a></p>
                             </div>
                         </li>
                         <li>
@@ -25,7 +25,7 @@
                                 <i class="fas fa-mobile"></i>
                             </div>
                             <div class="text">
-                                <p><a href="tel:13077760608">+ 1 (307) 776-0608</a></p>
+                                <p><a href="tel:13077760608">08035082149, 07062990717</a></p>
                             </div>
                         </li>
                     </ul>

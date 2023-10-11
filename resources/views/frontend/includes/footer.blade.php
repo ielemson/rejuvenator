@@ -62,7 +62,7 @@
                                     <i class="fas fa-envelope-open"></i>
                                 </div>
                                 <div class="text">
-                                    <p><a href="mailto:needhelp@company.com ">needhelp@company.com</a></p>
+                                    <p><a href="mailto:needhelp@company.com ">rejuvenator08@gmail.com</a></p>
                                 </div>
                             </li>
                             <li>
