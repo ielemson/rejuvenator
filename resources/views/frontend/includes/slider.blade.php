@@ -15,7 +15,7 @@
 "delay": 5000
 }}'>
         <div class="swiper-wrapper">
-
+{{-- 
             <div class="swiper-slide">
                 <div class="image-layer"
                     style="background-image: url(assets/images/backgrounds/main-slider-1-1.jpg);"></div>
@@ -38,25 +38,24 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
 
             <div class="swiper-slide">
                 <div class="image-layer"
-                    style="background-image: url(assets/images/backgrounds/main-slider-1-2.jpg);"></div>
+                    style="background-image: url(assets/images/resources/welcome-slider.jpeg);"></div>
                 <!-- /.image-layer -->
 
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="main-slider__content">
-                                <h2 class="main-slider__title">Think <span>&</span> <br>
-                                    Give Charity.</h2>
+                                <h2 class="main-slider__title">Welcome to The Rejuvenator</h2>
                                 <p class="main-slider__text">We are here to support you every step of the way
                                 </p>
                                 <div class="main-slider__btn-box">
-                                    <a href="about.html" class="thm-btn main-slider__btn-one">Discover
+                                    <a href="{{url('aboutus')}}" class="thm-btn main-slider__btn-one">Discover
                                         More</a>
-                                    <a href="cause-details.html" class="thm-btn main-slider__btn-two">Donate
+                                    <a href="#" class="thm-btn main-slider__btn-two">Donate
                                         now</a>
                                 </div>
                             </div>
@@ -65,7 +64,7 @@
                 </div>
             </div>
 
-            <div class="swiper-slide">
+            {{-- <div class="swiper-slide">
                 <div class="image-layer"
                     style="background-image: url(assets/images/backgrounds/main-slider-1-3.jpg);"></div>
                 <!-- /.image-layer -->
@@ -88,7 +87,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
 
         </div>
 

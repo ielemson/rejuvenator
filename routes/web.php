@@ -21,10 +21,10 @@ Route::get('/', function () {
 });
 
 Route::get('/aboutus', function () {
-    return view('frontend.contact');
+    return view('frontend.aboutus');
 });
 Route::get('/contact', function () {
-    return view('frontend.aboutus');
+    return view('frontend.contact');
 });
 
 // Route::get('/', function () {

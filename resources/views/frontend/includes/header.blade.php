@@ -25,7 +25,7 @@
                                 <i class="fas fa-mobile"></i>
                             </div>
                             <div class="text">
-                                <p><a href="tel:13077760608">08035082149, 07062990717</a></p>
+                                <p><a href="tel:08035082149">08035082149, 07062990717</a></p>
                             </div>
                         </li>
                     </ul>
@@ -72,7 +72,7 @@
                                 <a href="#">Events</a>
                                 <ul>
                                     <li><a href="">News</a></li>
-                                    <li><a href="">Blog</a></li>
+                                    {{-- <li><a href="">Blog</a></li> --}}
                                 </ul>
                             </li>
                             <li class="">

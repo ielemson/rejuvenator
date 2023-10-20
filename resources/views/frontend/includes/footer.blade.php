@@ -84,7 +84,7 @@
                 <div class="col-xl-12">
                     <div class="site-footer__bottom">
                         <div class="site-footer__bottom-inner">
-                            <p class="site-footer__bottom-text">© Copyright 2023 by <a href="#">Company.com</a>
+                            <p class="site-footer__bottom-text">© Copyright 2023 by <a href="#">rejuvenator.org</a>
                             </p>
                             <div class="site-footer__social">
                                 <a href="#"><i class="fab fa-twitter"></i></a>

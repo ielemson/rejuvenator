@@ -1,5 +1,10 @@
 @extends('layouts.welcome')
 
+
+@section('slider_or_banner')
+    @include('frontend.includes.slider')
+@endsection
+
 @section('content')
   <!--About Three Start-->
   <section class="about-three">
@@ -8,11 +13,11 @@
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-xl-8">
+            <div class="col-xl-6">
                 <div class="about-three__left">
                     <div class="section-title text-left">
                         <span class="section-title__tagline">About Us</span>
-                        <h2 class="section-title__title">The Rejuvenator Initiative Int'l</h2>
+                        <h2 class="section-title__title">The Rejuvenator</h2>
                     </div>
                     <p class="about-three__text">
                         The Rejuvenator Initiatives International is a non-governmental, nonprofit, and 
@@ -20,21 +25,21 @@
                         the potential of young people for peak performance and professional 
                         development. We were established in 2008 and initially registered with the 
                         Municipal Council of Owerri. In 2020, we expanded our reach and obtained 
-                        national registration with the Corporate Affairs Commission.
+                        national registration with the Corporate Affairs Commission. <br>
                         Our focus areas include promoting transformational education, talent discovery 
                         and development, leadership formation, counseling, and skill acquisition. Our 
-                        primary beneciaries are young people, while teachers and parents are 
-                        secondary beneciaries of our programs.
+                        primary beneficiaries are young people, while teachers and parents are 
+                        secondary beneficiaries of our programs.
                         
                     </p>
                     
                    
                 </div>
             </div>
-            <div class="col-xl-4">
+            <div class="col-xl-6">
                 <div class="about-three__right">
                     <div class="about-three__img">
-                        <img src="assets/images/resources/about-three-img-1.jpg" alt="">
+                        <img src="assets/images/resources/who-we-are.jpeg" alt="who we are">
                     </div>
                 </div>
             </div>
@@ -52,7 +57,7 @@
                 <div class="faq-one__left">
                     <div class="faq-one__img-box">
                         <div class="faq-one__img">
-                            <img src="assets/images/resources/faq-one-img-1.jpg" alt="">
+                            <img src="assets/images/resources/our-values.jpeg" alt="">
                         </div>
                     </div>
                 </div>
@@ -130,108 +135,158 @@
 </section>
 <!--Vision & Mission One End-->
 
-  
+   <!--Project undertaken -->
+   <section class="about-four">
+    <div class="about-three__shape-1 float-bob-x">
+        {{-- <img src="assets/images/shapes/about-three-shape-1.png" alt=""> --}}
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="about-three__left">
+                    <div class="section-title text-left">
+                        {{-- <span class="section-title__tagline">Project Undertaken</span> --}}
+                        <h2 class="section-title__title">Project Undertaken</h2>
+                    </div>
+                    <ul class="about-two__points-list list-unstyled">
+                        <li>
+                            <div class="icon">
+                                <span class="fa fa-check"></span>
+                            </div>
+                            <div class="content">
+                                <h3>The Future Map</h3>
+                                <p>
+                                    This conference prototype orientation and mentoring program targets 
+                                    secondary school graduates, students, undergraduates, job seekers, and unemployed 
+                                    graduates. Through this initiative, we guide, plan, and harness the visions of our beneciaries 
+                                    using technology and modern information dissemination methods. We organize workshops, 
+                                    trainings, and impact-driven programs to steer young people towards their educational goals. 
+                                    For those not pursuing higher education, we equip them with vocational skills to become valuable 
+                                    members of society. To date, we have impacted over 780 youths and reached out to 23 schools 
+                                    and youth organizations.
 
-    <!--Fundraising One Start-->
-    <section class="fundraising-one">
-        <div class="fundraising-one__bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
-            style="background-image: url(assets/images/backgrounds/fundraising-one-bg-img.jpg);"></div>
-        <div class="container">
-            <div class="fundraising-one__inner">
-                <p class="fundraising-one__sub-title">We’re here to support poor people</p>
-                <h3 class="fundraising-one__title">Fundraising for the People and
-                    <br> Causes you <span>Care</span> About
-                </h3>
-                <div class="fundraising-one__btn-box">
-                    <a href="cause-details.html" class="fundraising-one__btn thm-btn">Start donating them</a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <span class="fa fa-check"></span>
+                            </div>
+                            <div class="content">
+                                <h3>Loving the Real Me</h3>
+                                <p>This interactive program for teenagers addresses the relationship 
+                                    between love and self-development. It aims to expose teenagers in secondary schools to the 
+                                    proper meaning of love, helping them avoid emotional distractions that can hinder the pursuit of
+                                    their life dreams. The program has had ve editions and has impacted over 2000 students</p>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                   
                 </div>
             </div>
+            {{-- <div class="col-xl-4">
+                <div class="about-three__right">
+                    <div class="about-three__img">
+                        <img src="assets/images/resources/who-we-are.jpeg" alt="who we are">
+                    </div>
+                </div>
+            </div> --}}
         </div>
-    </section>
-    <!--Fundraising One End-->
+    </div>
+</section>
+<!--Project UnderTaken Ends-->
 
- 
 
-  
-
-    <!--Donate One Start-->
-    <section class="donate-one">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-6">
-                    <div class="donate-one__left">
-                        <div class="section-title text-left">
-                            <span class="section-title__tagline">Help us Donate</span>
-                            <h2 class="section-title__title">Start Donating</h2>
-                        </div>
-                        <div class="donate-one__shape-1 float-bob-x">
-                            {{-- <img src="assets/images/shapes/donate-one-shape-1.png" alt=""> --}}
-                        </div>
-                        <form
-                            class="contact-form-box__form contact-form-validated" novalidate="novalidate">
-                            <div class="row">
-                                <div class="col-xl-6 col-lg-6">
-                                    <div class="contact-form-box__input-box">
-                                        <input type="text" placeholder="Value" name="name">
-                                    </div>
+  <!--About Three Start-->
+  <section class="about-three">
+    <div class="about-three__shape-1 float-bob-x">
+        {{-- <img src="assets/images/shapes/about-three-shape-1.png" alt=""> --}}
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-7">
+                <div class="about-three__left">
+                    <div class="section-title text-left">
+                        {{-- <span class="section-title__tagline">Our Corperate Partners</span> --}}
+                        <h2 class="section-title__title">Our Corperate Partners</h2>
+                    </div>
+                    <div class="about-one__text-box">
+                        <p class="about-one__text-2">
+                            To enhance our efficiency and value in delivering our mandate, we have formed alliances 
+                                with organizations such as
+                        </p>
+                    </div>
+                    <ul class="about-one__points list-unstyled">
+                        <li>
+                            <div class="about-one__points-icon-box">
+                                <div class="icon">
+                                    <span class="fa fa-check"></span>
                                 </div>
-                                <div class="col-xl-6 col-lg-6">
-                                    <div class="contact-form-box__input-box">
-                                        <input type="email" placeholder="Your Name" name="email">
-                                    </div>
-                                </div>
-                                <div class="col-xl-12 col-lg-12">
-                                    <div class="contact-form-box__input-box">
-                                        <input type="text" placeholder="Email Address" name="phone">
-                                    </div>
-                                </div>
-                                <div class="col-xl-12 col-lg-12">
-                                    <div class="contact-form-box__input-box text-message-box">
-                                        <textarea name="message" placeholder="Write a Message"></textarea>
-                                    </div>
-                                    <div class="contact-form-box__btn-box">
-                                        <button type="submit" class="thm-btn contact-form-box__btn">Send a
-                                            message</button>
-                                    </div>
+                                <div class="text">
+                                    <p>Think Counseling Network and Human Development Initiatives Abuja.</p>
                                 </div>
                             </div>
-                        </form>
-                        <div class="result"></div>
-                    </div>
+                        
+                        </li>
+                        <li>
+                            <div class="about-one__points-icon-box">
+                                <div class="icon">
+                                    <span class="fa fa-check"></span>
+                                </div>
+                                <div class="text">
+                                    <p>Gregory University Uturu Abia State.</p>
+                                </div>
+                            </div>
+                           
+                        </li>
+                      
+                    </ul>
+                    <br>
+                    <ul class="about-one__points list-unstyled">
+                        <li>
+                            <div class="about-one__points-icon-box">
+                                <div class="icon">
+                                    <span class="fa fa-check"></span>
+                                </div>
+                                <div class="text">
+                                    <p>The Futuremap Media Concepts Limited Abuja.</p>
+                                </div>
+                            </div>
+                         
+                        </li>
+                        <li>
+                            <div class="about-one__points-icon-box">
+                                <div class="icon">
+                                    <span class="fa fa-check"></span>
+                                </div>
+                                <div class="text">
+                                    <p>The Federal Ministry of Education, and others.</p>
+                                </div>
+                            </div>
+                         
+                        </li>
+                      
+                    </ul>
+                    
+                   
                 </div>
-                <div class="col-xl-6">
-                    <div class="donate-one__right">
-                        <div class="donate-one__img">
-                            <img src="assets/images/resources/donate-one-img-1.jpg" alt="">
-                        </div>
-                        <ul class="donate-one__contact list-unstyled">
-                            <li>
-                                <div class="icon">
-                                    <span class="fas fa-envelope-open"></span>
-                                </div>
-                                <div class="content">
-                                    <p><a href="mailto:needhelp@company.com">needhelp@company.com</a></p>
-                                    <p><a href="tel:8800761610">(+88) 00 76 16
-                                            10</a></p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon">
-                                    <span class="fas fa-map"></span>
-                                </div>
-                                <div class="content">
-                                    <p>Suite 80 Golden Street Line
-                                        <br> New York, USA
-                                    </p>
-                                </div>
-                            </li>
-                        </ul>
+            </div>
+            <div class="col-xl-5">
+                <div class="about-three__right">
+                    <div class="about-three__img">
+                        <img src="assets/images/resources/partners.jpeg" alt="our partner">
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!--Donate One End-->
+    </div>
+</section>
+<!--About Three End-->
+
+
+
+
 
 
 @endsection

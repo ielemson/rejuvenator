@@ -71,7 +71,8 @@
 
 
         <!--Main Slider Start-->
-            @include('frontend.includes.slider')
+            {{-- @include('frontend.includes.slider') --}}
+            @yield('slider_or_banner')
         <!--Main Slider End-->
 
         @yield('content')
@@ -89,7 +90,7 @@
             <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
             <div class="logo-box">
-                <a href="index.html" aria-label="logo image"><img src="assets/images/resources/logo-2.png"
+                <a href="{{url('/')}}" aria-label="logo image"><img src="assets/images/resources/logo-2.png"
                         width="145" alt="" /></a>
             </div>
             <!-- /.logo-box -->
@@ -122,20 +123,7 @@
     </div>
     <!-- /.mobile-nav__wrapper -->
 
-    <div class="search-popup">
-        <div class="search-popup__overlay search-toggler"></div>
-        <!-- /.search-popup__overlay -->
-        <div class="search-popup__content">
-            <form action="#">
-                <label for="search" class="sr-only">search here</label><!-- /.sr-only -->
-                <input type="text" id="search" placeholder="Search Here..." />
-                <button type="submit" aria-label="search submit" class="thm-btn">
-                    <i class="icon-magnifying-glass"></i>
-                </button>
-            </form>
-        </div>
-        <!-- /.search-popup__content -->
-    </div>
+   
     <!-- /.search-popup -->
 
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
